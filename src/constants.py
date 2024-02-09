@@ -1,0 +1,16 @@
+STORM_DEFAULT_NUM_FEATURES = 2500
+STORM_DEFAULT_BLOCK_SIZE = 1000
+STORM_NETWORK_DEFAULT_DENSE_SIZE = 64
+STORM_NETWORK_DEFAULT_DROPOUT = 0.4
+STORM_NETWORK_DEFAULT_LSTM_SIZE = 32
+STORM_NETWORK_DEFAULT_REGULARIZATION_USE = True
+DATASETS_LIST = [
+    'auslan2',
+    'blocks',
+    'context',
+    'hepatitis',
+    'musekey',
+    'pioneer',
+    'skating',
+    'weather'
+]
