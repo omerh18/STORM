@@ -10,7 +10,7 @@ The framework operates as follows:
 
 **Setup:** STORM first converts raw input STIs series data into multivariate time series (MTS) representation. 
 
-**Map:** Converted MTS are then discretized into equally-sized blocks. 
+**Map:** Converted MTS are then partitioned into equally-sized blocks. 
 Each block is independently transformed into a uniform latent space via a common, desired Rocket (Dempster et al. 2020) variant for MTS used as a base transformation in STORM.
 Through Rocket’s transformation, global properties can be extracted from the converted MTS. 
 That is, however, limited to the scope of a single block, which also allows for the better capturing of local classification-informative aspects of the input series. 
