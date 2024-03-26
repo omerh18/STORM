@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository is related to the paper "STORM: A map-reduce framework for Symbolic Time Intervals series classification", to be submitted to the *XXXXX* journal.
+This repository is related to the paper "STORM: A map-reduce framework for Symbolic Time Intervals series classification", to be submitted to the *Transactions on Knowledge Discovery from Data* journal.
 
 We introduce STORM - a novel map-reduce framework for the classification of series of Symbolic Time Intervals (STIs). 
 
